@@ -38,6 +38,7 @@ function addUser(user) {
     let div = document.createElement("div");
     // Set the background color of the div to the user's favorite color
     div.style.backgroundColor = user.favColor;
+    div.style.color = "whitesmoke";
     // Create a heading for the user's name
     let name = document.createElement("h2");
     // Set the text using the object data
